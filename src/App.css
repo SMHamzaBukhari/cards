@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  color: chocolate;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+ 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cards {
+  border: 1px solid white;
+  padding: 15px 20px;
+  text-align: left;
+  background-color: #fff;
+  margin: 20px;
+  box-shadow: 5px 5px 5px rgb(255, 193, 148);
+}
+p{
+  font-size: x-small;
+}
+.cards .btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.cards .btns #plus{
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+.cards button {
+  padding: 5px;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  box-shadow: 0 4px #999;
+}
+.cards .btns button:active{
+  transform: translateY(2px);
+  box-shadow: 0 1px #666;
+}
+.cards .btns button:hover {
+  background-color: rgb(202, 96, 20);
+}
+button:active{
+  transition: all 0.2s;
+}
+img{
+  width: 200px;
+  height: 150px;
+}
+.namePrice{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2em;
+}
+h1{
+  display: inline;
+  border-bottom: 4px solid chocolate;
+}
