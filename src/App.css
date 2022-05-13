@@ -32,6 +32,11 @@
   margin: 20px;
   box-shadow: 5px 5px 5px rgb(255, 193, 148);
 }
+.cards:hover{
+  transform: scale(1.02);
+  transition: all 0.3s;
+}
+
 p{
   font-size: x-small;
 }
