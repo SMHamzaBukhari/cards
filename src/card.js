@@ -1,6 +1,6 @@
 
 function Card(props) {
-  let i =0;
+  let i =1;
   const addtocart = ()=>{
     console.log("Title : "+ props.title + '\n' +
           "Price : " + props.price + '\n'+
